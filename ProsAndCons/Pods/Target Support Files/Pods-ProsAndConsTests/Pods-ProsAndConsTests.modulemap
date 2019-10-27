@@ -1,0 +1,6 @@
+framework module Pods_ProsAndConsTests {
+  umbrella header "Pods-ProsAndConsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
