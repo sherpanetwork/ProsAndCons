@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C987623E236652BC00BCE8E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C987623D236652BC00BCE8E4 /* AppDelegate.swift */; };
+		C9876240236652BC00BCE8E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C987623F236652BC00BCE8E4 /* SceneDelegate.swift */; };
+		C9876243236652BC00BCE8E4 /* TempFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9876242236652BC00BCE8E4 /* TempFile.swift */; };
+		C987624C236652BC00BCE8E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C987624B236652BC00BCE8E4 /* ContentView.swift */; };
+		C987624E236652BC00BCE8E4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C987624D236652BC00BCE8E4 /* Podfile */; };
+		C9876252236652BE00BCE8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9876251236652BE00BCE8E4 /* Assets.xcassets */; };
+		C9876255236652BE00BCE8E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9876254236652BE00BCE8E4 /* Preview Assets.xcassets */; };
+		C9876258236652BE00BCE8E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9876256236652BE00BCE8E4 /* LaunchScreen.storyboard */; };
+		C9876263236652BE00BCE8E4 /* ProsAndConsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9876262236652BE00BCE8E4 /* ProsAndConsTests.swift */; };
+		C987626E236652BE00BCE8E4 /* ProsAndConsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C987626D236652BE00BCE8E4 /* ProsAndConsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C987625F236652BE00BCE8E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9876232236652BC00BCE8E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9876239236652BC00BCE8E4;
+			remoteInfo = ProsAndCons;
+		};
+		C987626A236652BE00BCE8E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9876232236652BC00BCE8E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9876239236652BC00BCE8E4;
+			remoteInfo = ProsAndCons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C987623A236652BC00BCE8E4 /* ProsAndCons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProsAndCons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C987623D236652BC00BCE8E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C987623F236652BC00BCE8E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9876242236652BC00BCE8E4 /* TempFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempFile.swift; sourceTree = "<group>"; };
+		C987624B236652BC00BCE8E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C987624D236652BC00BCE8E4 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		C9876251236652BE00BCE8E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9876254236652BE00BCE8E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C9876257236652BE00BCE8E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9876259236652BE00BCE8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C987625E236652BE00BCE8E4 /* ProsAndConsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProsAndConsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9876262236652BE00BCE8E4 /* ProsAndConsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProsAndConsTests.swift; sourceTree = "<group>"; };
+		C9876264236652BE00BCE8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9876269236652BE00BCE8E4 /* ProsAndConsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProsAndConsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C987626D236652BE00BCE8E4 /* ProsAndConsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProsAndConsUITests.swift; sourceTree = "<group>"; };
+		C987626F236652BE00BCE8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9876237236652BC00BCE8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C987625B236652BE00BCE8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9876266236652BE00BCE8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9876231236652BC00BCE8E4 = {
+			isa = PBXGroup;
+			children = (
+				C987623C236652BC00BCE8E4 /* ProsAndCons */,
+				C9876261236652BE00BCE8E4 /* ProsAndConsTests */,
+				C987626C236652BE00BCE8E4 /* ProsAndConsUITests */,
+				C987623B236652BC00BCE8E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C987623B236652BC00BCE8E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C987623A236652BC00BCE8E4 /* ProsAndCons.app */,
+				C987625E236652BE00BCE8E4 /* ProsAndConsTests.xctest */,
+				C9876269236652BE00BCE8E4 /* ProsAndConsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C987623C236652BC00BCE8E4 /* ProsAndCons */ = {
+			isa = PBXGroup;
+			children = (
+				C987624D236652BC00BCE8E4 /* Podfile */,
+				C9876256236652BE00BCE8E4 /* LaunchScreen.storyboard */,
+				C9876241236652BC00BCE8E4 /* AdminFiles */,
+				C9876244236652BC00BCE8E4 /* Controllers */,
+				C9876247236652BC00BCE8E4 /* Models */,
+				C987624A236652BC00BCE8E4 /* Views */,
+				C9876253236652BE00BCE8E4 /* Preview Content */,
+			);
+			path = ProsAndCons;
+			sourceTree = "<group>";
+		};
+		C9876241236652BC00BCE8E4 /* AdminFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C9876251236652BE00BCE8E4 /* Assets.xcassets */,
+				C9876259236652BE00BCE8E4 /* Info.plist */,
+				C987623D236652BC00BCE8E4 /* AppDelegate.swift */,
+				C987623F236652BC00BCE8E4 /* SceneDelegate.swift */,
+				C9876242236652BC00BCE8E4 /* TempFile.swift */,
+			);
+			path = AdminFiles;
+			sourceTree = "<group>";
+		};
+		C9876244236652BC00BCE8E4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C9876247236652BC00BCE8E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C987624A236652BC00BCE8E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C987624B236652BC00BCE8E4 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C9876253236652BE00BCE8E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C9876254236652BE00BCE8E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C9876261236652BE00BCE8E4 /* ProsAndConsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9876262236652BE00BCE8E4 /* ProsAndConsTests.swift */,
+				C9876264236652BE00BCE8E4 /* Info.plist */,
+			);
+			path = ProsAndConsTests;
+			sourceTree = "<group>";
+		};
+		C987626C236652BE00BCE8E4 /* ProsAndConsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C987626D236652BE00BCE8E4 /* ProsAndConsUITests.swift */,
+				C987626F236652BE00BCE8E4 /* Info.plist */,
+			);
+			path = ProsAndConsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9876239236652BC00BCE8E4 /* ProsAndCons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9876272236652BE00BCE8E4 /* Build configuration list for PBXNativeTarget "ProsAndCons" */;
+			buildPhases = (
+				C9876236236652BC00BCE8E4 /* Sources */,
+				C9876237236652BC00BCE8E4 /* Frameworks */,
+				C9876238236652BC00BCE8E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProsAndCons;
+			productName = ProsAndCons;
+			productReference = C987623A236652BC00BCE8E4 /* ProsAndCons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C987625D236652BE00BCE8E4 /* ProsAndConsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9876275236652BE00BCE8E4 /* Build configuration list for PBXNativeTarget "ProsAndConsTests" */;
+			buildPhases = (
+				C987625A236652BE00BCE8E4 /* Sources */,
+				C987625B236652BE00BCE8E4 /* Frameworks */,
+				C987625C236652BE00BCE8E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9876260236652BE00BCE8E4 /* PBXTargetDependency */,
+			);
+			name = ProsAndConsTests;
+			productName = ProsAndConsTests;
+			productReference = C987625E236652BE00BCE8E4 /* ProsAndConsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9876268236652BE00BCE8E4 /* ProsAndConsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9876278236652BE00BCE8E4 /* Build configuration list for PBXNativeTarget "ProsAndConsUITests" */;
+			buildPhases = (
+				C9876265236652BE00BCE8E4 /* Sources */,
+				C9876266236652BE00BCE8E4 /* Frameworks */,
+				C9876267236652BE00BCE8E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C987626B236652BE00BCE8E4 /* PBXTargetDependency */,
+			);
+			name = ProsAndConsUITests;
+			productName = ProsAndConsUITests;
+			productReference = C9876269236652BE00BCE8E4 /* ProsAndConsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9876232236652BC00BCE8E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Sherpa Network LLC";
+				TargetAttributes = {
+					C9876239236652BC00BCE8E4 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					C987625D236652BE00BCE8E4 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = C9876239236652BC00BCE8E4;
+					};
+					C9876268236652BE00BCE8E4 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = C9876239236652BC00BCE8E4;
+					};
+				};
+			};
+			buildConfigurationList = C9876235236652BC00BCE8E4 /* Build configuration list for PBXProject "ProsAndCons" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9876231236652BC00BCE8E4;
+			productRefGroup = C987623B236652BC00BCE8E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9876239236652BC00BCE8E4 /* ProsAndCons */,
+				C987625D236652BE00BCE8E4 /* ProsAndConsTests */,
+				C9876268236652BE00BCE8E4 /* ProsAndConsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9876238236652BC00BCE8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9876255236652BE00BCE8E4 /* Preview Assets.xcassets in Resources */,
+				C9876252236652BE00BCE8E4 /* Assets.xcassets in Resources */,
+				C9876258236652BE00BCE8E4 /* LaunchScreen.storyboard in Resources */,
+				C987624E236652BC00BCE8E4 /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C987625C236652BE00BCE8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9876267236652BE00BCE8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9876236236652BC00BCE8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9876243236652BC00BCE8E4 /* TempFile.swift in Sources */,
+				C987623E236652BC00BCE8E4 /* AppDelegate.swift in Sources */,
+				C987624C236652BC00BCE8E4 /* ContentView.swift in Sources */,
+				C9876240236652BC00BCE8E4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C987625A236652BE00BCE8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9876263236652BE00BCE8E4 /* ProsAndConsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9876265236652BE00BCE8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C987626E236652BE00BCE8E4 /* ProsAndConsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9876260236652BE00BCE8E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9876239236652BC00BCE8E4 /* ProsAndCons */;
+			targetProxy = C987625F236652BE00BCE8E4 /* PBXContainerItemProxy */;
+		};
+		C987626B236652BE00BCE8E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9876239236652BC00BCE8E4 /* ProsAndCons */;
+			targetProxy = C987626A236652BE00BCE8E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9876256236652BE00BCE8E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9876257236652BE00BCE8E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9876270236652BE00BCE8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9876271236652BE00BCE8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9876273236652BE00BCE8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ProsAndCons/Preview Content\"";
+				DEVELOPMENT_TEAM = AQBECMS2SK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ProsAndCons/AdminFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thesherpanetwork.ProsAndCons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9876274236652BE00BCE8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ProsAndCons/Preview Content\"";
+				DEVELOPMENT_TEAM = AQBECMS2SK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ProsAndCons/AdminFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thesherpanetwork.ProsAndCons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9876276236652BE00BCE8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQBECMS2SK;
+				INFOPLIST_FILE = ProsAndConsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thesherpanetwork.ProsAndConsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProsAndCons.app/ProsAndCons";
+			};
+			name = Debug;
+		};
+		C9876277236652BE00BCE8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQBECMS2SK;
+				INFOPLIST_FILE = ProsAndConsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thesherpanetwork.ProsAndConsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProsAndCons.app/ProsAndCons";
+			};
+			name = Release;
+		};
+		C9876279236652BE00BCE8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQBECMS2SK;
+				INFOPLIST_FILE = ProsAndConsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thesherpanetwork.ProsAndConsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProsAndCons;
+			};
+			name = Debug;
+		};
+		C987627A236652BE00BCE8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQBECMS2SK;
+				INFOPLIST_FILE = ProsAndConsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thesherpanetwork.ProsAndConsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProsAndCons;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9876235236652BC00BCE8E4 /* Build configuration list for PBXProject "ProsAndCons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9876270236652BE00BCE8E4 /* Debug */,
+				C9876271236652BE00BCE8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9876272236652BE00BCE8E4 /* Build configuration list for PBXNativeTarget "ProsAndCons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9876273236652BE00BCE8E4 /* Debug */,
+				C9876274236652BE00BCE8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9876275236652BE00BCE8E4 /* Build configuration list for PBXNativeTarget "ProsAndConsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9876276236652BE00BCE8E4 /* Debug */,
+				C9876277236652BE00BCE8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9876278236652BE00BCE8E4 /* Build configuration list for PBXNativeTarget "ProsAndConsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9876279236652BE00BCE8E4 /* Debug */,
+				C987627A236652BE00BCE8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9876232236652BC00BCE8E4 /* Project object */;
+}
